@@ -90,7 +90,7 @@ const BestMusic = {
 };
 
 export default function App() {
-  const [selectedGenre, setGenre] = useState("Relax");
+  const [selectedGenre, setGenre] = useState("Soothing");
   function genreClickHandler(genre) {
     setGenre(genre);
   }
